@@ -1,0 +1,202 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{font-weight: bold; }
+#homeoriginal
+{
+	background:linear-gradient(to right,rgba(0, 0, 0, 1),rgba(0,0,0,0.6)),url(../img/home.jpg);
+	min-height: 620px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form-group{padding: 0px 15px;}
+#buttonform{ padding: 5px 20px; margin-top:5px; margin-left: 90px !important; }
+#buttonform{  }
+.top
+{
+	color: white; font-size: 13px; font-weight: bold;
+}
+.top ul , .top ul li
+{
+	list-style: none;
+	display: inline;
+	padding: 8px;
+}
+.bg-dark {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+.col-md-6 span h1{ font-weight: bolder; font-size: 60px;}
+.col-md-6 span p{ text-transform: none; font-size: 12px; padding: 2px; }
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: green;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color:green;
+}
+
+.dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important;}
+.mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a , .navbar-expand-lg .navbar-nav .nav-link{font-size:16px;text-transform:capitalize;padding:16px 15px;font-family:'Roboto',sans-serif;display: block !important;}
+.mainmenu .active a,.mainmenu .active a:focus,.mainmenu .active a:hover,.mainmenu li a:hover,.mainmenu li a:focus ,.navbar-default .navbar-nav>.show>a, .navbar-default .navbar-nav>.show>a:focus, .navbar-default .navbar-nav>.show>a:hover{outline: 0;}
+/*==========Sub Menu=v==========*/
+
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover{background: green; color: white; text-decoration: none}
+.mainmenu .collapse ul ul ul > li:hover > a{background: #4CAF50;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:white;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#1E88E5}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:white;}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px;width: 100%;}
+@media only screen and (min-width: 767px) {
+				.mainmenu .collapse ul li:hover> ul{display:block}
+				.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+				/*******/
+				.mainmenu .collapse ul ul li{position:relative}
+				.mainmenu .collapse ul ul li:hover> ul{display:block}
+				.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+				/*******/
+				.mainmenu .collapse ul ul ul li{position:relative}
+				.mainmenu .collapse ul ul ul li:hover ul{display:block}
+				.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+
+				}
+.dropdown-toggle { text-decoration: none; color: white; }
+
+.sr-only{}
+a:hover {
+ 
+    text-decoration: none;
+} 
+.col-md-6 span{ color: white; letter-spacing: 1px; text-transform: uppercase;}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #218838;
+    }
+
+#myTab .nav-item a {
+	color: #218838; background-color: rgba(0,0,0,0.3); margin-left: 2px; border:none; 
+}
+.nav-tabs .nav-link { border-radius: 0px;}
+.nav-tabs {
+    border-bottom: none;
+}
+#form{background: white; padding: 5px;}
+
+.btn{border-radius: 0 !important; }
+
+.navigateadd
+{
+	background: rgba(0,0,0,1);
+	margin-left: 0px;
+	margin-right: 0px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+	height: 75px;
+
+}
+.navbar{width: 100%;}
+h1{ font-weight: bold; }
+#popular-destination-1 p{ margin-top: -20px; }
+.col-md-4 img {height: 250px; width: 400px;}
+
+div{
+	overflow: hidden;
+}
+#img{ position: relative; height: 100%; width: 100%; margin: 10px 0px; overflow: hidden;}
+#img img{ width: 100%;}
+.imgbtn{ position: absolute; top: 27%; left: 40%; border:none; visibility: hidden; }
+.overlay 
+{
+	height:93%;
+	width: 100%;
+	background: rgba(1,1,1,0.7);
+	top: 0; left: 0;
+	position: absolute;
+	display: none;
+	transition: 2s ease;
+}
+#popular-detination-2 #img:hover .overlay{
+	display: block; 
+	
+}
+#popular-detination-2 #img:hover .imgbtn{
+	visibility: visible;
+}
+
+.imgcontent{
+	color: white;
+	position: absolute;
+	top: 40%; left:25%;
+	font-family: "Poppins", sans-serif
+
+}
+.d-flex{ padding-top: 15px; }
+.single-price h4{ border-bottom: 1px green solid; padding:15px 20px; }
+.price-btn
+{
+	background: white;
+	color: black;
+	padding: 5px 18px;
+}
+.price-btn:hover{ background: green; color: white; }
+
+
+/* other issues section CSS */
+
+#other-issues img{ transition: 0.5s ease;  overflow: hidden;}
+#other-issues:hover img
+{
+	transform: scale(1.2) rotate(-5deg);
+}
+#other-issues:hover h5{color: orange}
+
+/* owl carasoul item class ( testomonial division )  */
+
+#owl-content {display: flex; padding: auto;  }
+.owl-content-img{ width: 15%; margin-right: 10px; }
+.owl-content-side  { width: 88%; color: #777777; font-family: "Poppins", sans-serif; font-weight: 300; font-size: 14px;}
+#owl-content img { height:auto; width: 50px; }
+.owl-content-side h4{ color: black; font-size: 18px; font-family: "Poppins", sans-serif; }
+.owl-content-side:hover h4{ color: green; }
+
+/*blog css*/
+
+.blog-post img{ transition: 0.5s ease; }
+.blog-post:hover img
+{
+	transform: scale(1.1,1.1) ;
+} 
+
+#footer
+{
+	background: linear-gradient(33deg,black 55%,green );
+				
+	min-height:500px;
+}
+#footer h6 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#footer p{ margin-top:34px;color: #777777; }
+.listoflink {width: 100%; margin-left:0px;}
+ul{ padding:10px 0px; }
+ul li{ list-style: none; padding-bottom: 10px; color: #777777; }
+
+
+#end
+{
+    padding-top: 40px;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+}
+ #end i{ color:green; padding-right:10px; }
+#end h5{ color: #777777; font-size: 15px;}
